@@ -1,4 +1,4 @@
-# NMF-Cosine-Recommender
+# NMF Cosine Recommender
 Movie recommendation algorithm combing NMF (non-negative matrix factorization) with cosine similarity.
 
 This combines the collaborative filtering approach of NMF, with the content filtering approach of cosine similarity. 
