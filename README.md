@@ -3,4 +3,4 @@ Movie recommendation algorithm combining the collaborative filtering approach of
 
 The main dependencies are scikitlearn (for cosine similarity) and surprise (for NMF). Scikitlearn has a major flaw in its NMF implementation which is that missing values aren't handled very well. For sparse matrices (like a set of user reviews), if you initialize this missing values to 0, the imputed values from NMF will be close to 0. The surprise library correctly fits to the ratings that exist.
 
-![NMF-Cosine schema](NMF-Cosine.png)
+![NMF-Cosine schema](NMF-Cosine.svg)
